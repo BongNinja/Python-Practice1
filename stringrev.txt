@@ -1,0 +1,18 @@
+# We are reversing a string and checking palindrome
+# first we provide input for a string
+s = input("Enter the String: \n")
+# We check whether a given String is Palindrome or not 
+p = ""
+for i in range(len(s)):
+    p = p + s[((len(s)-1)-i)]
+print(p)
+k=0
+for j in range(len(s)):
+     if s[j] == p[j]:
+            k += 1
+     else:
+            k=0
+if k == len(s):
+     print("The String is a Palindrome")
+else:
+     print("The string is not a palindrome")

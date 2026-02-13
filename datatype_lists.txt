@@ -1,0 +1,27 @@
+# In this code we will be dealing with a new type of datatype exclusively in python called the list
+# it is the most versatile data type in Python
+L=["Anish",26,170,
+"Akash",25,174,
+"Arul",24,172]
+print(L[2])
+print(L[0])
+print(L[0:])
+print(L[3:6])
+L.append(0)
+L.remove(26)
+print(L)
+#Now  we will clear all elements in the list 
+#L.clear()
+#print(L)
+L.remove("Anish")
+L.remove("Akash")
+L.remove("Arul")
+print(max(L))
+print(min(L))
+L.insert(0,"Anish")
+L.insert(2,"Akash")
+L.insert(5,"Arul")
+print(L)
+L.insert(1,26)
+L.remove(0)
+print(L)

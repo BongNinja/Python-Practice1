@@ -1,0 +1,3 @@
+#First python code
+print("Welcome to Python Programming")
+print("Let's begin this exciting journey")

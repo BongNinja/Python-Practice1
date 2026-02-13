@@ -1,0 +1,8 @@
+# In this code we will be working with a datatype dictionary 
+d_1 = { 1:"Anish",
+       2: "Akash",
+       3: "Arul",
+       4: "Nanson",
+       5: "Honey"}
+print(d_1)
+print(type(d_1))
